@@ -6,7 +6,7 @@ define('DB_NAME', 'mvc-richpeople');
 
 define('APPROOT', dirname(dirname(__FILE__))) ;
 
-define('URLROOT', 'http://www.mvc-richpeople.org');
+define('URLROOT', 'http://mvc-richpeople.org');
 
 define('SITENAME', 'MVC Framework');
 ?>

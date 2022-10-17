@@ -1,8 +1,8 @@
 <?php
-class RichPeople extends Controller {
+class RichPeoples extends Controller {
 
   public function __construct() {
-    $this->richpeopleModel = $this->model('Country');
+    $this->richpeopleModel = $this->model('RichPeople');
   }
 
   public function index() {

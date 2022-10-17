@@ -1,5 +1,5 @@
 <?php
-  class Country {
+  class RichPeople {
     private $db;
 
     public function __construct() {
@@ -7,7 +7,7 @@
     }
 
     public function getPeople() {
-      $this->db->query("SELECT * FROM `people`;");
+      $this->db->query("SELECT * FROM `richpeople`;");
 
       $result = $this->db->resultSet();
 
